@@ -65,7 +65,7 @@ As mentioned in the tutorial, the display pins are now using most of the **Analo
 #define TFT_DC    19
 #define TFT_RST   20  // Set TFT_RST to -1 if display RESET is connected to ESP32 board EN
 ````
-Don't forget to change the Backlight Pin Definituion in the main sketch:
+Don't forget to change the Backlight Pin Definition in the main sketch:
 
     #define TFT_BL_PIN 15 // backlight brightness control, needs to be a PWM pin
 
