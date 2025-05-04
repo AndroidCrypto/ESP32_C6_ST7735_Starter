@@ -27,8 +27,8 @@
 //#define TFT_BACKLIGHT_ON 1
 
 //#define TFT_BL  18  // LED back-light
-#define TFT_MISO  12  // not used/connected
-#define TFT_MOSI  16  // = SDA
+#define TFT_MISO  23  // not used/connected. Pin 23 is on solder pads only
+#define TFT_MOSI  16  // = SDA, labled as TX pin
 #define TFT_SCLK   7  
 #define TFT_CS    14 
 #define TFT_DC    19
