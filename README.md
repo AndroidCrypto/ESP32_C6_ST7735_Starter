@@ -57,7 +57,7 @@ As mentioned in the tutorial, the display pins are now using most of the **Analo
 
 ```` plaintext
 // file Setup702_C6_SM_ST7735_128x160_Alternative.h
-//#define TFT_BL  15  // LED back-light
+//#define TFT_BL  18  // LED back-light
 #define TFT_MISO  12  // not used/connected
 #define TFT_MOSI  16  // = SDA
 #define TFT_SCLK   7  
@@ -65,9 +65,6 @@ As mentioned in the tutorial, the display pins are now using most of the **Analo
 #define TFT_DC    19
 #define TFT_RST   20  // Set TFT_RST to -1 if display RESET is connected to ESP32 board EN
 ````
-Don't forget to change the Backlight Pin Definition in the main sketch:
-
-    #define TFT_BL_PIN 15 // backlight brightness control, needs to be a PWM pin
 
 ## Important note
 
