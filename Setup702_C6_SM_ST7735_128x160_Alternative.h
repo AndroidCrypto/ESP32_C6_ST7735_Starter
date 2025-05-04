@@ -26,7 +26,7 @@
 //#define TFT_INVERSION_OFF
 //#define TFT_BACKLIGHT_ON 1
 
-//#define TFT_BL  15  // LED back-light
+//#define TFT_BL  18  // LED back-light
 #define TFT_MISO  12  // not used/connected
 #define TFT_MOSI  16  // = SDA
 #define TFT_SCLK   7  
