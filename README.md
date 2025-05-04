@@ -58,7 +58,7 @@ As mentioned in the tutorial, the display pins are now using most of the **Analo
 ```` plaintext
 // file Setup702_C6_SM_ST7735_128x160_Alternative.h
 //#define TFT_BL  18  // LED back-light
-#define TFT_MISO  12  // not used/connected
+#define TFT_MISO  23  // not used/connected. Pin 23 is on solder pads only
 #define TFT_MOSI  16  // = SDA
 #define TFT_SCLK   7  
 #define TFT_CS    14 
